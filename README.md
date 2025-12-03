@@ -1,65 +1,36 @@
-# Exame-de-Front---End-FIAP
+# Projeto Baralho
 
+Projeto feito para o exame de Front-end usando Next.js.
 
-# Visualizador de Baralho
+## Como rodar
 
-Aplicação web desenvolvida para avaliação de Front-end utilizando Next.js.
-
-## Stack Tecnológica
-
-- Next.js 14
-- React 18
-- TypeScript
-- CSS Modules
-
-## Configuração do Projeto
-
-### 1. Instalação de Dependências
-
-Execute o comando abaixo para instalar todas as dependências necessárias:
-
-```bash
+1. Instalar dependências:
+```
 npm install
 ```
 
-### 2. Variáveis de Ambiente
-
-Crie um arquivo `.env.local` na raiz do projeto com a seguinte configuração:
-
-```env
-AUTH_PASSWORD=sua_senha_aqui
+2. Criar arquivo `.env.local` na raiz:
+```
+AUTH_PASSWORD=senha
 ```
 
-### 3. Executar em Desenvolvimento
-
-Para iniciar o servidor de desenvolvimento:
-
-```bash
+3. Rodar o projeto:
+```
 npm run dev
 ```
 
-O aplicativo estará disponível em `http://localhost:3000`
-
-### 4. Build para Produção
-
-Para gerar uma build otimizada:
-
-```bash
-npm run build
-npm start
-```
+4. Acessar em http://localhost:3000
 
 ## Funcionalidades
 
-- Sistema de autenticação com validação de senha
-- Exibição completa do baralho de cartas
-- Filtro por naipe das cartas
-- Embaralhamento de cartas
-- Persistência do estado no localStorage
-- Interface responsiva
+- Login com senha
+- Visualização do baralho completo
+- Filtro por naipe
+- Embaralhar cartas
+- Salva no localStorage
 
-## Deploy na Vercel
+## Deploy
 
-Link do deploy: (em breve)
+Link: (a fazer)
 
-Para fazer o deploy na Vercel, certifique-se de configurar a variável de ambiente `AUTH_PASSWORD` nas configurações do projeto.
+Configurar AUTH_PASSWORD na Vercel.
