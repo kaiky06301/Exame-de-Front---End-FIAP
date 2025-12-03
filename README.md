@@ -1,4 +1,4 @@
-# Projeto Baralho
+# Projeto de Baralho Front - End
 
 Projeto feito para o exame de Front-end usando Next.js.
 
@@ -19,7 +19,7 @@ AUTH_PASSWORD=senha
 npm run dev
 ```
 
-4. Acessar em http://localhost:3000
+4. Acessar: 
 
 ## Funcionalidades
 
@@ -33,4 +33,3 @@ npm run dev
 
 Link: (a fazer)
 
-Configurar AUTH_PASSWORD na Vercel.
